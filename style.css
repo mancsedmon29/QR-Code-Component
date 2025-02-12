@@ -1,0 +1,58 @@
+/* Styled by "Edmon Mancao" */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+    --white : hsl(0, 0%, 100%);
+    --slate300: hsl(212, 45%, 89%);
+    --slate500: hsl(216, 15%, 48%);
+    --slate900: hsl(218, 44%, 22%);
+}
+
+body {
+    font-size: 15px;
+    font-family: "Outfit", sans-serif;
+    background-color: var(--slate300);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* The container size */
+.container {
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: var(--white);
+    padding: 18px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0 1em
+}
+
+/* Style for img */
+.card img {
+    width: 100%;
+    border-radius: 13px;
+}
+
+.text {
+    padding: 18px 10px;
+}
+
+.text h2 {
+    color: var(--slate900);
+}
+
+.text p {
+    color: var(--slate500);
+}
+
+
+/* @media screen and (max-width: 375px) {
+    
+} */
